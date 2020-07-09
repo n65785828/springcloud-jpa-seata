@@ -16,6 +16,7 @@ unzip seata-server-xxx.zip
 cd distribution
 sh ./bin/seata-server.sh 8091 file
 ```
+启动后在 host中配置 127.0.0.1  seata
 
 4. 启动 Account, Order, Storage, Business 服务
 
